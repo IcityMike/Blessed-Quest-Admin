@@ -1,0 +1,11 @@
+{
+    "durationMs": 19812,
+    "status": "Ok",
+    "statusDescription": "Account is being setup for Npp. Please allow a few minutes for the account to become active",
+    "bankAccountName": "radhika 256",
+    "bankAccountNumber": "217581400",
+    "bsb": "802-985",
+    "clientUniqueId": "8629441057fc408b9b04541c2ba036",
+    "isActive": false
+}
+

@@ -1,0 +1,27 @@
+# Laravel
+# config/services.php
+node_modules
+public/export
+public/hot
+public/storage
+public/transactions
+public/client_pictures
+public/public
+public/refferal_partners
+public/support_ticket_files
+public/transactions
+storage/*.key
+vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea
+.vscode
+composer.lock
+.history
+public/uploads

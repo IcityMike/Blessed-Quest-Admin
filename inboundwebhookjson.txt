@@ -1,0 +1,232 @@
+{
+  "TotalCount": 2,
+  "TotalAmount": 3,
+  "DirectCreditDetails": [
+    [
+      {
+        "TransactionId": "D00100537784",
+        "BatchId": "0000000212749",
+        "DateTime": "2020-01-13T14:21:50.553",
+        "Bsb": "802-985",
+        "AccountNumber": 213977073,
+        "AccountName": "Rj Patel rwerewr",
+        "TransactionCode": "50",
+        "Amount": 1,
+        "LodgementRef": "Ref1",
+        "RemitterName": "ABC XYZ",
+        "NameOfUserSupplyingFile": "M PAYMENTS",
+        "NumberOfUserSupplyingFile": "483449",
+        "DescriptionOfEntriesOnFile": "PAYMENT TRNSFR",
+        "Indicator": "",
+        "WithholdingTaxAmount": 0,
+        "SourceBsb": "123-123",
+        "SourceAccountNumber": "123456789"
+      },
+      {
+        "TransactionId": "D00100537785",
+        "BatchId": "0000000212749",
+        "DateTime": "2020-01-13T14:30:50.002",
+        "Bsb": "802-985",
+        "AccountNumber": 213977073,
+        "AccountName": "Rj Patel rwerewr2",
+        "TransactionCode": "50",
+        "Amount": 1,
+        "LodgementRef": "Ref2",
+        "RemitterName": "STU XYZ",
+        "NameOfUserSupplyingFile": "M PAYMENTS",
+        "NumberOfUserSupplyingFile": "483449",
+        "DescriptionOfEntriesOnFile": "PAYMENT TRNSFR",
+        "Indicator": "",
+        "WithholdingTaxAmount": 0,
+        "SourceBsb": "123-123",
+        "SourceAccountNumber": "234123896"
+      }
+    ]
+  ]
+}
+
+
+{
+    "DirectCreditDetails": [
+        {
+            "TransactionId": "D00101328072",
+            "BatchId": "000000129809",
+            "DateTime": "2023-05-09T21:08:23.157",
+            "Bsb": "802-985",
+            "AccountNumber": "111716920",
+            "AccountName": "Bank123447895",
+            "TransactionCode": "50",
+            "Amount": 10.00,
+            "LodgementRef": "",
+            "RemitterName": "test DE",
+            "NameOfUserSupplyingFile": "M PAYMENTS PTY LIMIT",
+            "NumberOfUserSupplyingFile": "483449",
+            "DescriptionOfEntriesOnFile": "PAYMNT TRSFR",
+            "Indicator": "",
+            "WithholdingTaxAmount": 0.00,
+            "SourceBsb": "802-985",
+            "SourceAccountNumber": "111716920"
+        },
+        {
+            "TransactionId": "D00101328076",
+            "BatchId": "000000129809",
+            "DateTime": "2023-05-09T21:08:23.157",
+            "Bsb": "802-985",
+            "AccountNumber": "111716920",
+            "AccountName": "Bank123447895",
+            "TransactionCode": "50",
+            "Amount": 1.00,
+            "LodgementRef": "",
+            "RemitterName": "test DE",
+            "NameOfUserSupplyingFile": "M PAYMENTS PTY LIMIT",
+            "NumberOfUserSupplyingFile": "483449",
+            "DescriptionOfEntriesOnFile": "PAYMNT TRSFR",
+            "Indicator": "",
+            "WithholdingTaxAmount": 0.00,
+            "SourceBsb": "802-985",
+            "SourceAccountNumber": "111716920"
+        }
+    ],
+    "TotalCount": 2,
+    "TotalAmount": 11.00
+}  
+
+
+
+NppCreditBankAccount :
+{"durationMs":857,"status":"FinancialValidateDisbursementNppCreditBankAccountDetailsAreInvalid","statusDescription":"disbursements[0].ToNppCreditBankAccountDetails are invalid. Reason: \"Error Description:'Maximum Length allowed for Account Number is 9'\"","bpayReceipts":null,"callerUniqueReference":"0572dd8d-65fa-422a-87df-11ec58721791","feeAmountExcludingGst":0,"feeAmountGstComponent":0,"feeAmountIncludingGst":0,"feeBreakdown":null,"transactionId":0}
+
+
+for bank account nium from bank details :
+{"durationMs":8629,"status":"Error","statusDescription":"The Payee is unable to accept a Clearing Request because the account to be credited does not exist.","bpayReceipts":[],"callerUniqueReference":"70023a4e-b640-4069-8766-27ea23ec31e9","feeAmountExcludingGst":0,"feeAmountGstComponent":0,"feeAmountIncludingGst":0,"feeBreakdown":{"debitFee":{"feeAmountExcludingGst":0,"feeAmountGstComponent":0,"feeAmountIncludingGst":0},"disbursementFees":[]},"transactionId":0}
+
+directCredit :
+"{"durationMs":796,"status":"FinancialValidateDisbursementDirectCreditDetailsAreInvalid","statusDescription":"disbursements[0].toDirectCreditDetails The toDirectCredit details are invalid. Reason: \"Field Name:'accountNumber'  Error Description:'Account Number '330251494987' is not a valid bank account number.'\"","bpayReceipts":null,"callerUniqueReference":"b58a402f-39aa-4280-9c6e-8a72d3cb51e6","feeAmountExcludingGst":0,"feeAmountGstComponent":0,"feeAmountIncludingGst":0,"feeBreakdown":null,"transactionId":0}
+
+
+'{"durationMs":1590,"status":"Ok","statusDescription":"Operation completed successfully","bpayReceipts":[],"callerUniqueReference":"950689f7-9b8e-44aa-a3e5-dbc993c514e4","feeAmountExcludingGst":0.8000,"feeAmountGstComponent":0.0800,"feeAmountIncludingGst":0.8800,"feeBreakdown":{"debitFee":{"feeAmountExcludingGst":0,"feeAmountGstComponent":0,"feeAmountIncludingGst":0},"disbursementFees":[{"disbursementArrayIndex":0,"disbursementFee":{"feeAmountExcludingGst":0.8000,"feeAmountGstComponent":0.0800,"feeAmountIncludingGst":0.8800}}]},"transactionId":50108095}'
+
+
+
+
+
+
+
+
+
+
+
+$signature = "GTSAHScJD8paI11zGFVe62m5Yi2NDOHNOhpuqYjuBI8ZX1CE6smaTtutMK2BFf63t3cy4SgXO2BJqElIGhRGQWIJAtvSQjOMNFBC4/m/CxxUzVxJhAbOJYxs1cXWg7RHLn2YhLKYRuAo+D0IkAJzMEy146V+BWtF7zImZPmFHDai6D7NLdc7Hqx9StIcM+WkbNgTmJfoLtZ1hCnVq7HuMEcQ+tCfE9n5MfCcZXtzZ2yYzvBiNdqFDlU9ed75D8vq4hMPkpHI5D2JE5/lIp8N8d5ZjkvY1QD5jYDwNvh8P8PV57m1LAWXpSqn3snS2ygzlgHwbuRQb+KOhMot/6fxNA==";
+
+        $decoded_signature = base64_decode($signature);
+
+        $payload = $request->getContent();
+        $payload = utf8_encode($payload);
+
+        // $cerFilePath = storage_path().'/app/monoova/monoova-signing-cert.cer';
+        $cerFilePath = storage_path('app/monoova/monoova-signing-cert.pem');
+        $fileContent = file_get_contents($cerFilePath);
+        
+        $certificate = openssl_pkey_get_public($fileContent);
+        
+        if ($certificate === false) {
+            // Failed to get the public key from the certificate
+            die('Failed to get the public key');
+        }
+        $rsa = openssl_get_publickey($certificate);
+        $keyDetails = openssl_pkey_get_details($rsa);
+        
+        if ($keyDetails['type'] !== OPENSSL_KEYTYPE_RSA) {
+            // Not an RSA key
+            dd('Invalid RSA public key');
+            $error = openssl_error_string();
+            dd($error);
+        }
+        if ($rsa === false) {
+            // Failed to get the RSA public key
+            dd('Failed to get the RSA public key');
+        }
+        $hashAlgorithm = 'sha256';
+
+        $r = openssl_verify($payload, $decoded_signature, $rsa, $hashAlgorithm);
+
+
+<div class="form-group">
+    <label for="">Login Type</label>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="swift_user_type" id="swift_user_type1" value="individual" checked>
+        <label class="form-check-label radio-label" for="swift_user_type1">
+        Individual
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="swift_user_type" id="swift_user_type2" value="joint" >
+        <label class="form-check-label radio-label" for="swift_user_type2">
+        Joint
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="swift_user_type" id="swift_user_type3" value="company" >
+        <label class="form-check-label radio-label" for="swift_user_type3">
+        Company
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="swift_user_type" id="swift_user_type4" value="corporatetrust" >
+        <label class="form-check-label radio-label" for="swift_user_type4">
+        Trust or Superannuation Fund with company as Trustee
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="swift_user_type" id="swift_user_type5" value="individualtrust" >
+        <label class="form-check-label radio-label" for="swift_user_type5">
+        Trust or Superannuation Fund with individuals as Trustees
+        </label>
+    </div>
+</div>
+
+
+$('input[name="swift_user_type"]').on('change', function() {
+        var selectedOption = $('input[name="swift_user_type"]:checked').val();
+        if(selectedOption === "individual"){
+            $('#first_name').attr('required',true);
+            $('#last_name').attr('required',true);
+            $('#dynamic_label1').removeAttr('required');
+            $(".individual").show();
+            $(".show_name").hide();
+        }else if(selectedOption === "company"){
+            $("#dynamic_label").html('Business Name');
+            $('#dynamic_label1').prop('placeholder', "Business Name");
+
+            $('#first_name').removeAttr('required');
+            $('#last_name').removeAttr('required');
+
+            $('#dynamic_label1').attr('required',true);
+
+
+            $(".show_name").show();
+            $(".individual").hide();
+
+        }
+        else if(selectedOption === "joint" || selectedOption === "corporatetrust" || selectedOption === "individualtrust"){
+            $("#dynamic_label").html('Name');
+            $('#dynamic_label1').prop('placeholder', "Name");
+
+            $('#first_name').removeAttr('required');
+            $('#last_name').removeAttr('required');
+
+            $('#dynamic_label1').attr('required',true);
+
+            $(".show_name").show();
+            $(".individual").hide();
+        }
+        else{
+            $('#first_name').attr('required',true);
+            $('#last_name').attr('required',true);
+
+            $('#dynamic_label1').removeAttr('required');
+
+            $(".individual").show();
+            $(".show_name").hide();
+        }
+    });
